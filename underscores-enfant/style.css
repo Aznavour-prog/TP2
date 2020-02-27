@@ -1,0 +1,29 @@
+/*
+ Theme Name:   underscores Child
+ Theme URI:    http://example.com/underscores-child/
+ Description:  underscores Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     underscores
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  underscoreschild
+*/
+
+
+
+body{
+    background-color:lightgrey;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    color:red;
+}
+
+img{
+    border-radius:25px;
+    border:2px solid black;
+}
