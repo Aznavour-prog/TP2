@@ -76,6 +76,7 @@ echo "<h1>".category_description($category[0])."</h1>";
      $query2->the_post();
      
      echo '<h4>' . get_the_title() . '</h4>';
+     echo '<p>' . the_excerpt() . '</p>';
      echo get_the_post_thumbnail(null,"thumbnail");
  }
   
